@@ -41,15 +41,3 @@ while (choice != "exit"):
 			print bdf.getStandardDeviation(rowsOfData, choiceList[1])
 	else:
 		break
-
-
-# def showLinePlot():
-# 	TOEFL_SCORES_LIST = []
-# 	CHANCE_OF_ADMIT = []
-# 	plt.axis([0,1, 20, 120])
-# 	for dataRow in rowsOfData:
-# 		TOEFL_SCORES_LIST.append(dataRow['TOEFL Score'])
-# 		CHANCE_OF_ADMIT.append(dataRow['Chance of Admit '])
-
-# 	plt.scatter(CHANCE_OF_ADMIT, TOEFL_SCORES_LIST)
-# 	plt.show()	
